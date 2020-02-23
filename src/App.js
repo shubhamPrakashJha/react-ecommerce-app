@@ -40,6 +40,7 @@ class App extends React.Component {
 							console.log(snapshot, snapshot.data(), this.state);
 						}
 					);
+					console.log(this.state);
 				});
 			} else {
 				this.setState({ currentUser: userAuth });
